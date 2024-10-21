@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #777;
+    min-height: 100vh;
+}
+section{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: #212e36;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 80px;
+    font-size: 2em;
+    text-align: right;
+    background: #a7af7c;
+    top: 20px;
+    border: none;
+    outline: none;
+}
+.first{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 360px;
+    background: #212e36;
+    top: 40px;
+    border-radius: 20px;
+}
+button{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.equal{
+    bottom: 10px;
+    right: 10px;
+    top: 290px;
+    width: 160px;
+    left: 200px;
+    background: #297aed;
+    color: white;
+}
+.clear{
+    bottom: 10px;
+    right: 80px;
+    top: 290px;
+    left: 0px;
+    background: #ff0000;
+    color: white;
+}
+.one{
+   top: 10px;
+   left: 0px;
+}
+.two{
+    top: 10px;
+    left: 100px;
+}
+.three{
+    top: 10px;
+    left: 200px;
+}
+.plus{
+    top: 10px;
+    left: 300px;
+    height: 130px;
+    background: #fbbe0a;
+    color: white;
+}
+.four{
+    top: 80px;
+    left: 0px;
+}
+.five{
+    top: 80px;
+    left: 100px;
+}
+.six{
+    top: 80px;
+    left: 200px;
+}
+.minus{
+    top: 150px;
+    left: 300px;
+}
+.dot{
+    top: 290px;
+    left: 100px;
+    background: #999;
+    color: white;
+}
+.seven{
+    top: 150px;
+    left: 0px;
+}
+.eight{
+    top: 150px;
+    left: 100px;
+}
+.nine{
+    top: 150px;
+    left: 200px;
+}
+.mul{
+    top:220px;
+    left: 300px;
+}
+.div{
+    top: 220px;
+    left: 200px;
+}
+.zero{
+    top: 220px;
+    left: 0px;
+}
+.zero2{
+    top: 220px;
+    left: 100px;
+}
